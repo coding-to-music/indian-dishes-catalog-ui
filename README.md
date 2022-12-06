@@ -19,6 +19,10 @@ https://dev.to/sachinchaurasiya/2022-hackathon-submission-introducing-indian-dis
 ```java
   if (process.env.NODE_ENV === "production" && "serviceWorker" in navigator) {
 
+export const API_CLIENT = axios.create({
+  baseURL: 'https://devxmongodb-hackathon.onrender.com/api',
+});
+
 ```
 
 ## GitHub
